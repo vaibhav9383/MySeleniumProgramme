@@ -48,7 +48,7 @@ public class TestLogin1 {
 
 
         driver.get(url);
-      // Thread.sleep(20000);
+        //Thread.sleep(20000);
 
         test.log(LogStatus.INFO, "Browser is Opened and Maximised");
 
@@ -85,7 +85,7 @@ public class TestLogin1 {
 
     //WebDriver driver = Driver.getDriver(Driver.DriverTypes.CHROME);
 
-    @Test (priority = 2)
+    /*@Test (priority = 2)
     public void testlogin2() throws InterruptedException
     {
         Thread.sleep(20000);
@@ -124,6 +124,7 @@ public class TestLogin1 {
 
         extent.endTest(test);
         extent.flush();
+        */
     }
 
 
